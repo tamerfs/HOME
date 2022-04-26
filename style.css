@@ -68,6 +68,20 @@ border: 2PX solid #1C1C1C
     border-radius: 20px;
 }
 
+.certificados{
+    display: flexbox;
+    align-items: center;
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    margin: 10px;
+    padding: 32px;
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42); 
+    border-radius: 20px;
+    
+}
+
+
+
+
 .projetos-titulo {
     list-style:none;
     font-weight: 700;
