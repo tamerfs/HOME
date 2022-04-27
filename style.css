@@ -80,8 +80,14 @@ color: #F6F6F6;
     
 }
 
-
-
+.rlink {
+    list-style-type: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 42px;
+    color: #1C1C1C;
+    text-decoration: none;
+}
 
 .projetos-titulo {
     list-style:none;
@@ -115,20 +121,13 @@ color: #F6F6F6;
     background: #1C1C1C;
     color: #F7F7F7;
     border: 2PX solid #f7f7f7;
-
 }
 
-/*
-position: absolute;
-width: 431px;
-height: 387px;
-left: 504px;
-top: 524px;
-font-family: 'Roboto';
-font-style: normal;
-position: absolute;
-width: 158px;
-height: 160px;
-left: 154px;
-top: 79px;
-/*
+.dark .rlink {
+    list-style-type: none;
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 42px;
+    color: #F7F7F7;
+    text-decoration: none;
+}
