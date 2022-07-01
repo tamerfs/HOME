@@ -92,17 +92,23 @@ color: #F6F6F6;
 .projetos-titulo {
     list-style:none;
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.8rem;
 }
 .projetos-item {
     list-style-type: none;
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 400;
     line-height: 42px;
 }
 .projetos-item a{
     color: #1C1C1C;
     text-decoration: none;
+}
+
+p {
+ font-size: 1rem;
+ color: rgb(78, 78, 78);
+ align-self: flex-start;
 }
 
 .dark {
