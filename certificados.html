@@ -1,109 +1,144 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/x-icon" href="./src/favico.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portifolio</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script src= "script.js"></script>
-</head>
+        <head>
+                <meta charset="UTF-8">
+                <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <link rel="icon" type="image/x-icon" href="./src/favico.ico">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <title>Meu Portifolio</title>
+                <link rel="stylesheet" href="style.css" type="text/css">
+                <script src= "script.js"></script>
+        </head>
 
-<body>
+        <body>
+                <div class="container">        
+                        <header class="cabecario">
+                                <div class="perfil">
+                                <div>
+                                        <img class="perfil-foto"src="https://avatars.githubusercontent.com/u/91925002?s=400&u=805cc54ae72a02ce0004d7c297121f98858df947&v=4"/>
+                                </div>
+                                <div class="titulo">
+                                        <h1>Tamer Serhan </h1>
+                                        <h2>Analista e desenvolvedor de sistemas</h2>
+                                        <a target="_blank" href="https://www.linkedin.com/in/tamer-serhan-4a125765/"><h4>👉 LinkedIn</h4></a>
+                                        <a target="_blank" href="https://github.com/tamerfs"><h4>👉 GitHub</h4></a>
+                                </div>
+                                </div>
+                        </header>
+                
+                        <div class="tema">
+                                <button id="mode" onclick="mudaTema()"><b>Dark Mode</b></button>
+                                <button><a href="./src/Curriculo - Tamer Farache Serhan.pdf" target="_blank" download="curriculo - Tamer Farache Serhan.pdf">Curriculo</a></button>
+                        </div>
 
-    <div class="container">
+                        <main class="projetos">
+                                <div class="home">
+                                        <a href="./index.html" target="_self"> 🔙 Voltar para Home</a>
+                                </div>
+                                <div class="bolha">
 
-        <header class="cabecario">
-            <div class="perfil">
-             <img class = "perfil-foto" src="https://avatars.githubusercontent.com/u/91925002?s=400&u=805cc54ae72a02ce0004d7c297121f98858df947&v=4"/>
-                <div class="titulo">
-                    <h1>Tamer Serhan </h1>
-                    <h3>Analista e desenvolvedor de sistemas</h3>
-                    <h4><a class="rlink" target="_blank" href="https://www.linkedin.com/in/tamer-serhan-4a125765/"><b>👉 LinkedIn</b></a></h4>
-                    <h4><a class="rlink" target="_blank" href="https://github.com/tamerfs"><b>👉 GitHub</b></a></h4>
+                                        <div class="certificados">
+
+                                                <!-- 0 inicio -->
+                                                <div class="box"><h4>GitHub e SCRUM</h4>
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/C767D50D.pdf" title="Criando seu Primeiro Repositório no GitHub"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/69858D51.pdf" title="Introdução ao Git e ao GitHub"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/221050C2.pdf" title="Projetos ágeis com SCRUM"></iframe> 
+                                                </div>
+                                                <!-- 3 inicio -->
+                                                <div class="box"><h4>HTML+CSS e Front-End</h4>
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/1CBD6E4B.pdf" title="Introdução a criação de websites com HTML5 e CSS3"></iframe>   
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/AAD6B5AC.pdf" title="Recriando a página inicial do Instagram"></iframe>
+                                                        
+                                                        <iframe src="src/Angular.pdf" title="Criando projeto Gorgun com ANgular 9"></iframe>
+                                                </div>       
+                                                <!-- 6 db -->
+                                                <div class="box"><h4>Banco de dados SQL / NoSQL</h4>
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/1FE67C40.pdf" title="MySql - Trabalhando com assuas primeiras tabelas"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/91BCF08A.pdf" title="Introdução ao MongoDB e Bancos de Dados NoSQL"></iframe> 
+                                                
+                                                        <iframe src=""title="" ></iframe> 
+                                                </div>
+                                                <!-- 9 php -->
+                                                <div class="box"><h4>PHP</h4>
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/DE8603FC.pdf" title="Introdução ao PHP"></iframe>  
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/ADD5CAFB.pdf" title="Formulários com condicionais e sessões com PHP"></iframe>  
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/680D41FD.pdf" title="Conhecendo funções e validação de dados com PHP"></iframe>  
+                                                </div>
+                                                <!-- 12 js intro -->
+                                                <div class="box"><h4>JavaScript ES6</h4>
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/E3723E5E.pdf" title="Introdução ao JavaScript"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/A13E07CD.pdf" title="Variáveis e Tipos JavaScript"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/42126DA6.pdf" title="Sintaxe Básica em JavaScript"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/6C8A5D0E.pdf" title="Sintaxe e Operadores JavaScript"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/26060431.pdf" title="Funções em JavaScript"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/C9BBD871.pdf"title="JavaScript ES6 essencial" ></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/BCECAE14.pdf" title="Manipulando a D.O.M. com JavaScript"></iframe>
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/285DF3BE.pdf"title= "Módulo III - Dominando a Linguagem de Programação JavaScript"></iframe>
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/EF6FB294.pdf" title="Resolvendo Desafios de Código em Javascript"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/67343C33.pdf" title="Fundamentos de JavaScript Assíncrono"></iframe>
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/2347BF03.pdf" title="Desenvolvimento avançado com JavaScript ES6"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/D5D3431C.pdf" title="Debugging e Error Handling com JavaScript"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/759E0CCB.pdf" title="Conteúdo JavasCript"></iframe>
+                                                </div>
+                                                <!-- 25 -->
+                                                <div class="box"><h4>Node.js</h4>
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/C49AA581.pdf" title="Introdução ao Node.js com JavaScript"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/6D4E823F.pdf" title="Instalando e Configurando seu Ambiente Node.js"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/D5A03FF5.pdf" title="Fundamentos de Node.js e Jest"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/0F53AC28.pdf" title="Explorando o Estilo Arquitetural REST com Node.js"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/44269595.pdf" title="Microsserviços e Integrações com Node.js"></iframe> 
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/7AA42B48.pdf" title="Node.js com Bancos de Dados Relacionais (SQL)"></iframe>   
+                                                        
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/FE5EF625.pdf" title="Módulo VI - Back-end: Criando API com Node.Js"></iframe>
+                                                </div>
+                                                <!-- 32 -->
+                                                <div class="box"><h4>Dotnet, logica de programação e vs code </h4>
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/643B9B2D.pdf"title="Lógica de Programação Essencial" ></iframe>  
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/C063F7FA.pdf" title="Instalando o Visual Studio e SDK dot.net"></iframe>     
+
+                                                        <iframe src="https://hermes.digitalinnovation.one/certificates/84DD0CCC.pdf" title="IDE Instalação e Configuração(Visual Studio Code)"></iframe>
+                                                </div>
+                                                <!-- 35 --> 
+                                                <div class="box"><h4>JAVA</h4>
+                                                        <iframe src="" title=""></iframe>
+                                
+                                                        <iframe src="" title=""></iframe>
+                                
+                                                        <iframe src="" title=""></iframe>
+                                                </div> 
+                                        </div>
+                                </div><br/>
+                        </main>
                 </div>
-         
-            </div>
-        </header>
-
-        
-
-<div class="tema">
-    <button onclick="mudaTema()">Alterar Tema</button>
-    <button><a class="c_v"  href="Curriculo - Tamer Farache Serhan.pdf" download="curriculo - Tamer Farache Serhan.pdf">Baixe o Curriculo</a></button>
-</div>
-
-    <main class="certificados">
-        
-        <li class="projetos-item"><a href="./index.html" target="_self">👉 Voltar para Home</a></li></br>
-
-<!-- 0 inicio --><p>GitHub e SCRUM</p>
-        <object data="./src/git criando supositorio.pdf" type="application/pdf"></object>
-
-        <object data="./src/git e github introdução.pdf" type="application/pdf"></object>
-
-        <object data="./src/scruum projetos ageis com.pdf" type="application/pdf"></object>
-
-<!-- 3 inicio --><p>Banco de dados SQL / NoSQL  e HTML+CSS</p>
-        <object data="./src/db my sql.pdf" type="application/pdf"></object>
-
-        <object data="./src/db nosql.pdf" type="application/pdf"></object>
-    
-        <object data="./src/html e css 6h.pdf" type="application/pdf"></object>
-
-<!-- 6 BD --><p>PHP</p>
-        <object data="./src/php intro.pdf" type="application/pdf"></object>
-
-        <object data="./src/php formularios cond e sess.pdf" type="application/pdf"></object>
-
-        <object data="./src/php funcoes e validação de dados.pdf" type="application/pdf"></object>
-
-<!-- 9 php --><p>JavaScript Básico</p>
-        <object data="./src/js introducao.pdf" type="application/pdf"></object>
-
-        <object data="./src/js variaveis e tipo.pdf" type="application/pdf"></object>
-
-        <object data="./src/js sintaxe basica.pdf" type="application/pdf"></object>
-
-<!-- 12 js --><p>JavaScript ES6</p>
-        <object data="./src/js funcoes.pdf " type="application/pdf"></object>
-
-        <object data="./src/js sintaxe e operadores.pdf" type="application/pdf"></object>
-
-        <object data="./src/js resolvendo problemas.pdf" type="application/pdf"></object>
-
-<!-- 15 js --><p>JavaScript Avançado</p>
-        <object data="./src/js es6 essesncial.pdf" type="application/pdf"></object>
-
-        <object data="./src/js es6 avançado.pdf" type="application/pdf"></object>
-
-        <object data="./src/js debugging e error handling.pdf" type="application/pdf"></object>
-
-<!-- 18 --><p>Node.js Básico</p>
-        <object data="./src/node.js introdução.pdf" type="application/pdf"></object>
-
-        <object data="./src/node.js instalando ambiente.pdf" type="application/pdf"></object>
-
-        <object data="./src/node.js fundamentos e jest.pdf" type="application/pdf"></object>
-
-<!-- 21 --><p>Node.js Avançado</p>   
-        <object data="./src/node.js com rest .pdf" type="application/pdf"></object>
-
-        <object data="./src/node.js Microservice e integracoes.pdf" type="application/pdf"></object>
-
-        <object data="./src/node.js com banco de dados SQL.pdf" type="application/pdf"></object>        
-
-<!-- 24 --><p>Dotnet, logica de programação e vs code</p> 
-        <object data="./src/dotnet e vs 1h.pdf" type="application/pdf"></object>
-
-        <object data="./src/logica_prog_essencial.pdf" type="application/pdf"></object> 
-
-        <object data="./src/vs code instalando IDE.pdf" type="application/pdf"></object>     
-<!-- 28 --> 
-
-    </main><br/>
 
 
-</body>
+        </body>
+        <footer>
+                
+        </footer>
 

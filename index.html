@@ -1,65 +1,73 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" type="image/x-icon" href="./src/favico.ico">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portifolio</title>
-    <link rel="stylesheet" href="style.css" type="text/css">
-    <script src= "script.js"></script>
-</head>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" type="image/x-icon" href="./src/favico.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu Portifolio</title>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <script src= "script.js"></script>
+    </head>
 
 
-<body>
-    <div class="container">
-
-        <header class="cabecario">
-            <div class="perfil">
-             <img class = "perfil-foto" src="https://avatars.githubusercontent.com/u/91925002?s=400&u=805cc54ae72a02ce0004d7c297121f98858df947&v=4"/>
-                <div class="titulo">
-                    <h1>Tamer Serhan </h1>
-                    <h3>Analista e desenvolvedor de sistemas</h3>
-                    <h4><a class="rlink" target="_blank" href="https://www.linkedin.com/in/tamer-serhan-4a125765/"><b>👉 LinkedIn</b></a></h4>
-                    <h4><a class="rlink" target="_blank" href="https://github.com/tamerfs"><b>👉 GitHub</b></a></h4>
+    <body>
+        <div class="container">
+            <header class="cabecario">
+                <div class="perfil">
+                    <div>
+                        <img class="perfil-foto"src="https://avatars.githubusercontent.com/u/91925002?s=400&u=805cc54ae72a02ce0004d7c297121f98858df947&v=4"/>
+                    </div>
+                    <div class="titulo">
+                        <h1>Tamer Serhan </h1>
+                        <h2>Analista e desenvolvedor de sistemas</h2>
+                        <a target="_blank" href="https://www.linkedin.com/in/tamer-serhan-4a125765/"><h4>👉 LinkedIn</h4></a>
+                        <a target="_blank" href="https://github.com/tamerfs"><h4>👉 GitHub</h4></a>
+                    </div>
                 </div>
-         
-            </div>
-        </header>
-    
-
-        <div class="tema">
-            <button onclick="mudaTema()">Alterar Tema</button>
-            <button><a class="c_v"  href="Curriculo - Tamer Farache Serhan.pdf" download="curriculo - Tamer Farache Serhan.pdf">Baixe o Curriculo</a></button>
-        </div>
+            </header>
         
+            <div class="tema">
+                <button id="mode" onclick="mudaTema()"><b>Dark Mode</b></button>
+                <button><a href="./src/Curriculo - Tamer Farache Serhan.pdf" target="_blank" download="curriculo - Tamer Farache Serhan.pdf">Curriculo</a></button>
+            </div>
 
-        <main class="projetos">
-            <ul class="projetos-titulo"><h4>Projetos proprios com Frontend + Backend</h4></ul>
+            <main class="projetos">
 
-                <li class="projetos-item"><a href="https://projeto-gorgun.vercel.app/" target="_blank">👉 As Cronicas de Gorgun - HTML/CSS/JS</a></li>
-                    <p>Projeto feito com HTML/CSS/JS/PHP/MySQL a parte de interação e jogos pelo JS Dados e Forja</p>
+                <div class="bolha">
+                    <ul><h3>Projetos próprios com Frontend e Backend</h3>
 
-                <li class="projetos-item"><a href="https://tamerfs.github.io/Projeto_GORGUN_NG_TS_Node.js/" target="_blank">👉 As Cronicas de Gorgun - ANGULAR/TS</a></li>
-                    <p>Projeto feito com ANGULAR/TS a parte do Servidor JSON </p>
-
-                <li class="projetos-item"><a href="https://node-ms-aut.herokuapp.com/" target="_blank">👉 Toolbox de Microserviços de autenticação</a></li>
-                    <p>Projeto Microserviço de autenticação feito com NODE.JS typescrypt hospedado no git e herokuapp </p>
-
-                    
-            <ul class="projetos-titulo"><h4>Outros projetos proprios</h4></ul>
-
-                <li class="projetos-item"><a href="./codepen.html">👉 CodePen projetos Embeded</a></li>
-                    <p>Projeto feito com Codepen e Alura</p>
-
-                <li class="projetos-item"><a href="./others.html">👉 Projetos Menores</a></li>
-                    <p>Projetos basicos feito com html, css e js para praticar o JavaScript</p>            
-
-
+                        <li><a href="https://projeto-gorgun.vercel.app/" target="_blank">
+                            <h4>👉 As Cronicas de Gorgun - HTML/CSS/JS</h4></a>
+                            <p>Projeto feito com HTML/CSS/JS/PHP/MySQL a parte de interação e jogos pelo JS Dados e Forja</p></li>
+                        <li><a href="https://tamerfs.github.io/Projeto_GORGUN_NG_TS_Node.js/" target="_blank"><h4>👉 As Cronicas de Gorgun - ANGULAR/TS</h4></a>
+                            <p>Projeto feito com ANGULAR/TS a parte do Servidor JSON </p></li>
+                        <li><a href="https://node-ms-aut.herokuapp.com/" target="_blank"><h4>👉 Toolbox de Microserviços de autenticação</h4></a>
+                            <p>Projeto Microserviço de autenticação feito com NODE.JS typescrypt hospedado no git e herokuapp </p></li>
+                    </ul>
+                </div>
                 
-                <li class="projetos-item""><a href="./certificados.html">👉 Certificados de cursos realizados</a></li>
-                <p>Certificados obtiditos em cursos da dio.me e outros </p>
+                <div class="bolha">
+                    <ul><h3>Outros projetos proprios</h3>
 
-         </main>
-    </div>
-</body>
+                        <li><a href="./codepen.html">
+                            <h4>👉 CodePen projetos Embeded</h4></a>
+                            <p>Projeto feito com Codepen e Alura</p></li>
+                        <li><a href="./others.html">
+                            <h4>👉 Projetos Menores</h4></a>
+                            <p>Projetos basicos feito com html, css e js para praticar o JavaScript</p></li>  
+                    </ul>          
+                </div>
+
+                <div class="bolha">
+                    <ul><h3>Cerificados e Diplomas</h3>
+                        <li><a href="./certificados.html">
+                            <h4>👉 Certificados de cursos realizados</h4></a>
+                            <p>Certificados obtiditos em cursos da dio.me, COD3R e  outros </p></li>
+                    </ul>
+                </div>
+
+            </main>
+        </div>
+    </body>
+</html>
