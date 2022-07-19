@@ -129,6 +129,9 @@ body{
                 font-size: 1rem;
                 margin-bottom: 5px;
             }
+            .bolha a{
+                color: #626364;
+            }
         .embeded {
             width: 1000px;
             height: 300px;
