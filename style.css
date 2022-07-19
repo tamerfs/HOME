@@ -80,7 +80,7 @@ body{
             text-decoration: none;
             font-size: 1rem;
             color: #F6F6F6;
-            transition: all 0.5s linear;
+
     }
     .tema button:hover a {
         background-color: #000401;
@@ -137,31 +137,28 @@ body{
 
 /* html de certificado*/
 .certificados{
-    padding: 5px;
+    padding: 10px;
     align-items: center;
     justify-content: center;
 }
-iframe{
-    height: 200px;
-    width: 300px;
-    border:none;
-    outline: none;
-}
 .box{
+    align-self: center;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+}
+.box h4{
+    margin-bottom: 10px;
 
-    margin: 5px;
-    padding: 5px;
 }
 .certificados img {
-    max-width: 20%;
-    max-height: 20%;
+    max-width: 30%;
+    max-height: 30%;
 }
-.certificados iframe{
-    width: 20%;
-    height: 20%;
-    }
+
 
 /* Parte de alteração de tema*/
+
 .dark {
     background:#F7F7F7;
 }
@@ -177,22 +174,18 @@ iframe{
 .dark .bolha h4 {
     color: #F7F7F7;
 }
+.dark .titulo h4{
+    color: #F7F7F7;
+}
+
 .dark .tema button {
     background: #1C1C1C;
     color: #F7F7F7;
     border: 2PX solid #f7f7f7;
 }
-
-.dark .titulo h4{
-    color: #F7F7F7;
-}
-.dark .tema button {
-	background-color: #e5e8e8;
-	color: #4e545c;
-}
 .dark .tema a {
-	background-color: #e5e8e8;
-	color: #4e545c;
+    background: #1C1C1C;
+    color: #F7F7F7;
 }
 
 .dark .tema button:hover {
@@ -266,10 +259,7 @@ iframe{
         margin-left: 0;
         margin-bottom: 10px;
     }
-    .tema button{
-        align-items: center;
-        margin-bottom: 10px;
-    }
+
     .box{
         display: flex;
         flex-direction: column;
