@@ -1,175 +1,252 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-        <head>
-                <meta charset="UTF-8">
-                <meta http-equiv="X-UA-Compatible" content="IE=edge">
-                <link rel="icon" type="image/x-icon" href="./src/favico.ico">
-                <meta name="viewport" content="width=device-width, initial-scale=1.0">
-                <title>Meu Portifolio</title>
-                <link rel="stylesheet" href="src/style.css" type="text/css">
-                <script src= "./src/script.js"></script>
-        </head>
 
-        <body>
-                <div class="container">        
-                        <header class="cabecario">
-                                <div class="perfil">
-                                <div>
-                                        <img class="perfil-foto"src="https://avatars.githubusercontent.com/u/91925002?s=400&u=805cc54ae72a02ce0004d7c297121f98858df947&v=4"/>
-                                </div>
-                                <div class="titulo">
-                                        <h1>Tamer Serhan </h1>
-                                        <h2>Analista e desenvolvedor de sistemas</h2>
-                                        <a  href="https://www.linkedin.com/in/tamer-f-serhan/" target="_blank" ><img src="src/linkedin.svg" alt="in" class="svg"></a>
-                                        <a target="_blank" href="https://github.com/tamerfs"><img src="src/git.svg" alt="in" class="svg"></a>
-                                     
-                                </div>
-                        </header>
-                
-                        <div class="tema">
-                                <button id="mode" onclick="mudaTema()"><b>Dark Mode</b></button>
-                                <button><a href="./src/Curriculo - Tamer Farache Serhan.pdf" target="_blank" download="curriculo - Tamer Farache Serhan.pdf">Curriculo</a></button>
-                        </div>
+<head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <link rel="icon" type="image/x-icon" href="./src/favico.ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu Portifolio</title>
+        <link rel="stylesheet" href="src/style.css" type="text/css">
+        <script src="./src/script.js"></script>
+</head>
 
-                        <main class="projetos">
-                                <div class="home">
-                                        <a href="./index.html" target="_self"> 🔙 Voltar para Home</a>
-                                </div>
-                                <div class="bolha">
-
-                                        <div class="certificados">
-
-                                                <!-- 0 inicio -->
-                                                <div class="box"><h4>GitHub e SCRUM</h4>
-                                                        <img src="src/img/git criando supositorio 1h_page-0001.jpg" title="Criando seu Primeiro Repositório no GitHub"></img> 
-
-                                                        <img src="src/img/git e github introdução 5h.jpg" title="Introdução ao Git e ao GitHub"></img> 
-
-                                                        <img src="src/img/scruum projetos ageis com 2h.jpg" title="Projetos ágeis com SCRUM"></img> 
-                                                
-                                                        <img src="src/img/protocolos de comunicação.jpg"title="Base Protocolo HTTP" ></img>
-                                                </div>
-                                                <!-- 3 inicio -->
-                                                <div class="box"><h4>HTML+CSS || Front-End = Angular 9 + ReactJS</h4>
-                                                        <img src="src/img/html + css introducao 6h.jpg" title="Introdução a criação de websites com HTML5 e CSS3"></img>   
-
-                                                        <img src="src/img/html + css recriando pg instagram 2h.jpg" title="Recriando a página inicial do Instagram"></img>
-                                                        
-                                                        <img src="src/img/Angular.jpg" title="Criando projeto Gorgun com ANgular 9"></img>
-
-                                                        <img src="src/img/react intro.jpg"title="introdução ao react" ></img> 
-                                                </div>       
-                                                <!-- 6 db -->
-                                                <div class="box"><h4>Banco de dados SQL= elephantSQL + postgres || NoSQL = MongoDB </h4>
-                                                        <img src="src/img/db my sql 2h_page-0001.jpg" title="MySql - Trabalhando com assuas primeiras tabelas"></img> 
-
-                                                        <img src="src/img/db nosql 6h_page-0001.jpg" title="Introdução ao MongoDB e Bancos de Dados NoSQL"></img> 
-                                                
-                                                        <img src=""title="" ></img> 
-
-                                                        <img src=""title="" ></img> 
-                                                </div>
-                                                <!-- 8 php -->
-                                                <div class="box"><h4>PHP</h4>
-                                                        <img src="src/img/php intro 4h.jpg" title="Introdução ao PHP"></img>  
-
-                                                        <img src="src/img/php formularios cond e sess 5h.jpg" title="Formulários com condicionais e sessões com PHP"></img>  
-
-                                                        <img src="src/img/php funcoes e validação de dados 4h.jpg" title="Conhecendo funções e validação de dados com PHP"></img>  
-                                               
-                                                        <img src=""title="" ></img> 
-                                                </div>
-                                                <!-- 11 js intro -->
-                                                <div class="box"><h4>JavaScript ES6</h4>
-                                                        <img src="src/img/js introducao 3h.jpg" title="Introdução ao JavaScript"></img> 
-
-                                                        <img src="src/img/js sintaxe basica 2h.jpg" title="Sintaxe Básica em JavaScript"></img> 
-
-                                                        <img src="src/img/js variaveis e tipo 3h.jpg" title="Variáveis e Tipos JavaScript"></img> 
-
-                                                        <img src="src/img/js sintaxe e operadores 2h.jpg" title="Sintaxe e Operadores JavaScript"></img> 
-
-                                                        <img src="src/img/js funcoes 1h.jpg" title="Funções em JavaScript"></img> 
-
-                                                        <img src="src/img/js es6 essesncial 4.jpg"title="JavaScript ES6 essencial" ></img> 
-
-                                                        <img src="src/img/js manipulando a DOM 1h.jpg" title="Manipulando a D.O.M. com JavaScript"></img>
-
-                                                        <img src="src/img/js dominando a Linguagem de programacao 23h_page-0001.jpg"title= "Módulo III - Dominando a Linguagem de Programação JavaScript"></img>
-
-                                                        <img src="src/img/js resolvendo desafios de codigos 1h.jpg" title="Resolvendo Desafios de Código em Javascript"></img> 
-
-                                                        <img src="src/img/js fundamentos assicrono 1h.jpg" title="Fundamentos de JavaScript Assíncrono"></img>
-
-                                                        <img src="src/img/js es6 avançado 5h.jpg" title="Desenvolvimento avançado com JavaScript ES6"></img> 
-
-                                                        <img src="src/img/js debugging e error handling 2h.jpg" title="Debugging e Error Handling com JavaScript"></img> 
-
-                                                        <img src="src/img/js conteudo 118h_page-0001.jpg" title="Conteúdo JavasCript"></img>
-                                                </div>
-                                                <!-- 24 -->
-                                                <div class="box"><h4>Node.js</h4>
-                                                        <img src="src/img/node.js introdução 2h.jpg" title="Introdução ao Node.js com JavaScript"></img> 
-
-                                                        <img src="src/img/node.js instalando ambiente 1h.jpg" title="Instalando e Configurando seu Ambiente Node.js"></img> 
-
-                                                        <img src="src/img/node.js fundamentos e jest 2h.jpg" title="Fundamentos de Node.js e Jest"></img> 
-
-                                                        <img src="src/img/node.js REST 2h.jpg" title="Explorando o Estilo Arquitetural REST com Node.js"></img> 
-
-                                                        <img src="src/img/node.js microservice e integracoes 2h.jpg" title="Microsserviços e Integrações com Node.js"></img> 
-
-                                                        <img src="src/img/node.js com sql 2h.jpg" title="Node.js com Bancos de Dados Relacionais (SQL)"></img>   
-                                                        
-                                                        <img src="src/img/node js API backend.jpg" title="Módulo VI - Back-end: Criando API com Node.Js"></img>
-                                                </div>
-                                                <!-- 31 --> 
-                                                <div class="box"><h4>TypeScript</h4>
-                                                        <img src="src/img/ts intro 2h.jpg" title="Introdução ao TypeScript"></img>
-                                
-                                                        <img src="src/img/ts pratica 2h_page-0001.jpg" title="TypeScript na prática"></img>
-                                
-                                                        <img src="" title=""></img>
-
-                                                        <img src=""title="" ></img> 
-                                                <!-- 33 -->
-                                                <div class="box"><h4>Dotnet, logica de programação e vs code </h4>
-                                                        <img src="src/img/dotnet e vs 1h_page-0001.jpg"title="Lógica de Programação Essencial" ></img>  
-
-                                                        <img src="src/img/dotnet e vs 1h_page-0001.jpg" title="Instalando o Visual Studio e SDK dot.net"></img>     
-
-                                                        <img src="src/img/vs code instalando IDE 1h.jpg" title="IDE Instalação e Configuração(Visual Studio Code)"></img>
-                                                        
-                                                        <img src=""title="" ></img> 
-                                                </div>
-                                                <!-- 36 --> 
-                                                <div class="box"><h4>Coding Logic by Google</h4>
-                                                        <img src="src/img/comprovante 15.06.21.jpeg" title=""></img>
-                                
-                                                        <img src="src/img/comprovante 23.03.22.jpeg" title=""></img>
-                                
-                                                        <img src="" title=""></img>
-
-                                                        <img src=""title="" ></img> 
-                                                </div> 
-                                                <!-- 38 --> 
-                                                <div class="box"><h4>JAVA</h4>
-                                                        <img src="src/img/JAVA - letscode - santander.jpg" title="java"></img>
-                                
-                                                        <img src="" title=""></img>
-                                
-                                                        <img src="" title=""></img>
-
-                                                        <img src=""title="" ></img> 
-                                                </div>
-                                        </div>
-                                </div><br/>
-                        </main>
+<body>
+    <div class="container">
+        <header class="cabecario">
+            <div class="perfil">
+                <div>
+                        <img class="perfil-foto"
+                                src="https://avatars.githubusercontent.com/u/91925002?s=400&u=805cc54ae72a02ce0004d7c297121f98858df947&v=4" />
                 </div>
+                <div class="titulo">
+                        <h1>Tamer Serhan </h1>
+                        <h2>Analista e desenvolvedor de sistemas</h2>
+                        <a href="https://www.linkedin.com/in/tamer-f-serhan/" target="_blank"><img
+                                        src="src/linkedin.svg" alt="in" class="svg"></a>
+                        <a target="_blank" href="https://github.com/tamerfs"><img src="src/git.svg"
+                                        alt="in" class="svg"></a>
+
+                </div>
+            </div>
+        </header>
+
+        <div class="tema">
+                <button id="mode" onclick="mudaTema()"><b>Dark Mode</b></button>
+                <button><a href="./src/Curriculo - Tamer Farache Serhan.pdf" target="_blank"
+                                download="curriculo - Tamer Farache Serhan.pdf">Curriculo</a></button>
+        </div>
+
+        <main class="projetos">
+            <div class="home">
+                    <a href="./index.html" target="_self"> 🔙 Voltar para Home</a>
+            </div>
+            <div class="bolha">
+                <div class="certificados">
+                    <!-- 0 inicio - GitHub e SCRUM -->
+                    <div class="box">
+                        <h4>GitHub e SCRUM</h4>
+                        <img src="src/img/git criando supositorio 1h_page-0001.jpg"
+                                title="Criando seu Primeiro Repositório no GitHub"></img>
+
+                        <img src="src/img/git e github introdução 5h.jpg"
+                                title="Introdução ao Git e ao GitHub"></img>
+
+                        <img src="src/img/scruum projetos ageis com 2h.jpg"
+                                title="Projetos ágeis com SCRUM"></img>
+
+                        <img src="src/img/protocolos de comunicação.jpg"
+                                title="Base Protocolo HTTP"></img>
+                    </div>
+                    <!-- 5 inicio HTML+CSS || Front-End = Angular 9 + ReactJS -->
+                    <div class="box">
+                            <h4>HTML+CSS || Front-End = Angular 9 + ReactJS</h4>
+                            <img src="src/img/html + css introducao 6h.jpg"
+                                    title="Introdução a criação de websites com HTML5 e CSS3"></img>
+
+                            <img src="src/img/html + css recriando pg instagram 2h.jpg"
+                                    title="Recriando a página inicial do Instagram"></img>
+
+                            <img src="src/img/Angular.jpg"
+                                    title="Criando projeto Gorgun com ANgular 9"></img>
+
+                            <img src="src/img/react intro.jpg" 
+                                    title="introdução ao react"></img>
+                    </div>
+                    <!-- 9 db Banco de dados SQL= elephantSQL + postgres || NoSQL = MongoDB -->
+                    <div class="box">
+                            <h4>Banco de dados SQL= elephantSQL + postgres || NoSQL = MongoDB </h4>
+                            <img src="src/img/db my sql 2h_page-0001.jpg"
+                                    title="MySql - Trabalhando com assuas primeiras tabelas"></img>
+
+                            <img src="src/img/db nosql 6h_page-0001.jpg"
+                                    title="Introdução ao MongoDB e Bancos de Dados NoSQL"></img>
+
+                            <img src="" title=""></img>
+
+                            <img src="" title=""></img>
+                    </div>
+                    <!-- 13 php -->
+                    <div class="box">
+                            <h4>PHP</h4>
+                            <img src="src/img/php intro 4h.jpg" 
+                                    title="Introdução ao PHP"></img>
+
+                            <img src="src/img/php formularios cond e sess 5h.jpg"
+                                    title="Formulários com condicionais e sessões com PHP"></img>
+
+                            <img src="src/img/php funcoes e validação de dados 4h.jpg"
+                                    title="Conhecendo funções e validação de dados com PHP"></img>
+
+                            <img src="" title=""></img>
+                    </div>
+                    <!-- 17 js intro -->
+                    <div class="box">
+                            <h4>JavaScript ES6</h4>
+                            <img src="src/img/js introducao 3h.jpg"
+                                    title="Introdução ao JavaScript"></img>
+
+                            <img src="src/img/js sintaxe basica 2h.jpg"
+                                    title="Sintaxe Básica em JavaScript"></img>
+
+                            <img src="src/img/js variaveis e tipo 3h.jpg"
+                                    title="Variáveis e Tipos JavaScript"></img>
+
+                            <img src="src/img/js sintaxe e operadores 2h.jpg"
+                                    title="Sintaxe e Operadores JavaScript"></img>
+                            <!-- 21 js basico -->
+                            <img src="src/img/js funcoes 1h.jpg"
+                                    title="Funções em JavaScript"></img>
+
+                            <img src="src/img/js es6 essesncial 4.jpg"
+                                    title="JavaScript ES6 essencial"></img>
+
+                            <img src="src/img/js manipulando a DOM 1h.jpg"
+                                    title="Manipulando a D.O.M. com JavaScript"></img>
+
+                            <img src="src/img/js dominando a Linguagem de programacao 23h_page-0001.jpg"
+                                    title="Módulo III - Dominando a Linguagem de Programação JavaScript"></img>
+                            <!-- 25 js intermedio -->
+                            <img src="src/img/js resolvendo desafios de codigos 1h.jpg"
+                                    title="Resolvendo Desafios de Código em Javascript"></img>
+
+                            <img src="src/img/js fundamentos assicrono 1h.jpg"
+                                    title="Fundamentos de JavaScript Assíncrono"></img>
+
+                            <img src="src/img/js es6 avançado 5h.jpg"
+                                    title="Desenvolvimento avançado com JavaScript ES6"></img>
+
+                            <img src="src/img/js debugging e error handling 2h.jpg"
+                                    title="Debugging e Error Handling com JavaScript"></img>
+                            <!-- 29 js avançado -->
+                            <img src="src/img/js conteudo 118h_page-0001.jpg"
+                                    title="Conteúdo JavasCript"></img>
+                                    
+                            <img src="" title=""></img>
+                            
+                            <img src="" title=""></img>
+                            
+                            <img src="" title=""></img>
+                    </div>
+                    <!-- 33 NODE-->
+                    <div class="box">
+                            <h4>Node.js</h4>
+                            <img src="src/img/node.js introdução 2h.jpg"
+                                    title="Introdução ao Node.js com JavaScript"></img>
+
+                            <img src="src/img/node.js instalando ambiente 1h.jpg"
+                                    title="Instalando e Configurando seu Ambiente Node.js"></img>
+
+                            <img src="src/img/node.js fundamentos e jest 2h.jpg"
+                                    title="Fundamentos de Node.js e Jest"></img>
+
+                            <img src="src/img/node.js REST 2h.jpg"
+                                    title="Explorando o Estilo Arquitetural REST com Node.js"></img>
+                        <!-- 37 NODE-->
+                            <img src="src/img/node.js microservice e integracoes 2h.jpg"
+                                    title="Microsserviços e Integrações com Node.js"></img>
+
+                            <img src="src/img/node.js com sql 2h.jpg"
+                                    title="Node.js com Bancos de Dados Relacionais (SQL)"></img>
+
+                            <img src="src/img/node js API backend.jpg"
+                                    title="Módulo VI - Back-end: Criando API com Node.Js"></img>
+                                    
+                            <img src="" title=""></img>
+                    </div>
+                    <!-- 41 typescript-->
+                    <div class="box">
+                        <h4>TypeScript</h4>
+                        <img src="src/img/ts intro 2h.jpg"
+                                title="Introdução ao TypeScript"></img>
+
+                        <img src="src/img/ts pratica 2h_page-0001.jpg"
+                                title="TypeScript na prática"></img>
+
+                        <img src="" title=""></img>
+
+                        <img src="" title=""></img>
+                    </div>
+                    <!-- 53 JAVA -->
+                    <div class="box">
+                        <h4>JAVA</h4>
+                        <img src="src/img/JAVA - letscode - santander.jpg"
+                                title="java"></img>
+
+                        <img src="src/img/JAVA POO.jpg" 
+                                title="programação orientada a objeto"></img>
+
+                        <img src="src/img/JAVA praticando OO.jpg" 
+                                title="praticando o POO em java"></img>
+
+                        <img src="" title=""></img>
+                    </div>
+                    <!-- 57 PY -->
+                    <div class="box">
+                        <h4>Python</h4>
+                        <img src="src/img/PY Primeiros Passos.jpg"
+                                title="primeros passos com Python"></img>
+
+                        <img src="src/img/PY programação .jpg" 
+                                title= "programando com PY"></img>
+
+                        <img src="src/img/PY Tipos de Operadores.jpg" 
+                                title="Operadores em PY"></img>
+
+                        <img src="" title=""></img>
+                    </div>
+                    <!-- 45 dotnet vscode -->
+                    <div class="box">
+                        <h4>Dotnet, logica de programação e vs code </h4>
+                        <img src="src/img/dotnet e vs 1h_page-0001.jpg"
+                                title="Lógica de Programação Essencial"></img>
+
+                        <img src="src/img/dotnet e vs 1h_page-0001.jpg"
+                                title="Instalando o Visual Studio e SDK dot.net"></img>
+
+                        <img src="src/img/vs code instalando IDE 1h.jpg"
+                                title="IDE Instalação e Configuração(Visual Studio Code)"></img>
+
+                        <img src="" title=""></img>
+                    </div>
+                    <!-- 49 logica programação grassshoper-->
+                    <div class="box">
+                        <h4>Coding Logic by Google</h4>
+                        <img src="src/img/GrasshopperFundamentosdecodificação.jpg" title=""></img>
+
+                        <img src="src/img/GrasshopperFundamentosdeProgramaçãoII.jpg" title=""></img>
+
+                        <img src="" title=""></img>
+
+                        <img src="" title=""></img>
+                    </div>                    
+                </div><br/>
+            </div>
+        </main>
+    </div>
 
 
-        </body>
-        <footer>
-                
-        </footer>
+</body>
+<footer>
 
+</footer>
