@@ -143,6 +143,9 @@ body{
             height: 300px;
             margin: 5px;
         }
+.badge{
+    padding: 5pix;
+}
 
 /* html de certificado*/
 .certificados{
